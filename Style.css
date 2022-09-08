@@ -26,13 +26,16 @@ height: 90px;
 padding: 30px;}
 
 h1{
-font-size: 75px;
-display: flex;
-align-self: center;
-/* border: solid black 4px; */
-height: 90px;
-margin-right: 15%;
-font-weight:normal;}
+    font-size: 75px;
+    display: flex;
+    align-self: center;
+    /* border: solid black 4px; */
+    height: 90px;
+    margin-right: 210px;
+    font-weight:normal;
+background-color: #FBFFE2;}
+
+#hs{background-color: transparent;}
 
 #menu{display: flex;
 justify-content: center;
