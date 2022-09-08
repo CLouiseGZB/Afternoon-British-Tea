@@ -1,7 +1,8 @@
 *{margin: 0;
 padding: 0;
 color: #ADD8E6;
-font-family: 'Courier Prime', monospace;}
+font-family: 'Courier Prime', monospace;
+scroll-behavior: smooth;}
 
 header, footer{background-color: #FBFFE2;
 }
