@@ -196,7 +196,7 @@ padding-right: 30px;
           
 
 footer p{
-border: solid black 4px;
+border-top: solid #FF9999 2px;
     display: flex;
     align-items: center;
     justify-content: center;
