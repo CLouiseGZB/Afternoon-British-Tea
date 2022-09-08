@@ -47,8 +47,11 @@ transition: all 0.1s ease-out;
 nav li a {
     padding: 20px 40px;
     border-right: 1px solid #FF9999;
-width: 100%;}
-    
+width: 100%;
+font-size: 29px;}
+
+#diff{border-right: transparent;}
+
 a:hover{background-color: #FF9999;
 }
 
