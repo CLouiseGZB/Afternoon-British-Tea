@@ -1,0 +1,204 @@
+*{margin: 0;
+padding: 0;
+color: #ADD8E6;
+font-family: 'Courier Prime', monospace;}
+
+header, footer{background-color: #FBFFE2;
+}
+
+body{background-color: #ffcccc;
+    margin: 20px;
+    padding: 20px;
+    font-size: 30px;
+} 
+
+#logo{height: 90px;
+width: 90px;
+background-color: #FBFFE2;
+/* border: solid black 4px; */}
+
+.titre {/*border: solid black 4px;  */
+    display: flex;
+justify-content:space-between;
+align-self: center;
+height: 90px;
+padding: 30px;}
+
+h1{
+font-size: 75px;
+display: flex;
+align-self: center;
+/* border: solid black 4px; */
+height: 90px;
+margin-right: 15%;
+font-weight:normal;}
+
+#menu{display: flex;
+justify-content: center;
+list-style: none;
+}
+
+
+a{text-decoration: none;
+font-size: 30px;
+transition: all 0.1s ease-out; 
+}
+
+nav li a {
+    padding: 20px 40px;
+    border-right: 1px solid #FF9999;
+width: 100%;}
+    
+a:hover{background-color: #FF9999;
+}
+
+
+ #navigation{/*border: solid black 4px; */
+display: flex;
+justify-content:space-evenly;
+align-items: center;
+height: 90px;
+width: 1000px;}
+
+h2{font-weight:500;
+color: #FF9999;}
+
+section{height: 551px;
+    background-color: #FBFFE2;
+    font-size: 30px;
+}
+
+
+
+#Section_Tea_Time{
+    /* border: solid black 1px; */
+display: flex;
+align-items: center;
+justify-content:space-between;
+padding-top: 50px;
+}
+
+
+#Texte_Tea_Time{
+width: 900px;
+height: 551px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+text-align:center;
+padding-left: 30px;
+padding-right: 30px;
+}
+
+
+
+#Histoire{padding-top: 30px;
+    padding-left: 30px;
+    padding-right:30px ;
+    height: 500px;
+/* border: solid black 4px; */
+}
+
+
+
+#Section_Menu{
+    /* border: solid black 1px; */
+display: flex;
+align-items: center;
+justify-content:space-between;
+
+}
+
+#Texte_Menu{
+width: 900px;
+height: 551px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+text-align:center;
+padding-left: 30px;
+padding-right: 30px;
+}
+
+
+
+#Pâtisserie{
+    /* border: solid black 4px; */
+    padding-left: 66px;
+    padding-right: 66px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* flex-direction: column;
+    align-content:center; */
+}
+
+#Pie{display: flex;
+    align-items: center;
+    justify-content: space-between;
+width: 1200px;
+/* border: solid black 4px; */
+}
+
+#Pie2{display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    /* border: solid black 4px; */
+    }
+
+figure{display: flex;
+    flex-flow: column;
+    align-items: center;}
+
+figcaption{color: #FF9999;
+font-size: 20px;}
+
+
+
+#Section_Scones{
+    /* border: solid black 4px; */
+    padding: 30px;
+    height: 250px;
+}
+
+.Section_Scones2{
+    /* border: solid black 4px; */
+    display: flex;
+align-items: center;
+justify-content:space-between;
+height: 496px;;
+}
+
+.Texte_Scones2{
+/* border: solid black 4px; */
+height: 496px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+text-align:center;
+padding-left: 30px;
+padding-right: 30px;
+}
+
+
+
+#scroll_to_top {
+    position: fixed;
+    width: 25px;
+    height: 25px;
+    bottom: 50px;
+    right: 30px;
+  }
+  #scroll_to_top img {
+    width: 50px;
+  }
+          
+
+footer p{
+border: solid black 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
